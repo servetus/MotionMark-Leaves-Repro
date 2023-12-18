@@ -199,7 +199,7 @@ Controller = Utilities.createClass(
 
     shouldStop: function(timestamp)
     {
-        return timestamp > this._endTimestamp;
+        return false;
     },
 
     results: function()
